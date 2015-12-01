@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3F42361C0D6FC50077CB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F42351C0D6FC50077CB4C /* main.m */; };
+		3F3F42391C0D6FC50077CB4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F42381C0D6FC50077CB4C /* AppDelegate.m */; };
+		3F3F423C1C0D6FC50077CB4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F423B1C0D6FC50077CB4C /* ViewController.m */; };
+		3F3F423F1C0D6FC50077CB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F423D1C0D6FC50077CB4C /* Main.storyboard */; };
+		3F3F42421C0D6FC50077CB4C /* youchao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F42401C0D6FC50077CB4C /* youchao.xcdatamodeld */; };
+		3F3F42441C0D6FC50077CB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F42431C0D6FC50077CB4C /* Assets.xcassets */; };
+		3F3F42471C0D6FC50077CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F42451C0D6FC50077CB4C /* LaunchScreen.storyboard */; };
+		3F3F42521C0D6FC50077CB4C /* youchaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F42511C0D6FC50077CB4C /* youchaoTests.m */; };
+		3F3F425D1C0D6FC50077CB4C /* youchaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F425C1C0D6FC50077CB4C /* youchaoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3F424E1C0D6FC50077CB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3F42291C0D6FC50077CB4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3F42301C0D6FC50077CB4C;
+			remoteInfo = youchao;
+		};
+		3F3F42591C0D6FC50077CB4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3F42291C0D6FC50077CB4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3F42301C0D6FC50077CB4C;
+			remoteInfo = youchao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3F42311C0D6FC50077CB4C /* youchao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youchao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F42351C0D6FC50077CB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3F42371C0D6FC50077CB4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3F42381C0D6FC50077CB4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3F423A1C0D6FC50077CB4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F3F423B1C0D6FC50077CB4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F3F423E1C0D6FC50077CB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3F42411C0D6FC50077CB4C /* youchao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = youchao.xcdatamodel; sourceTree = "<group>"; };
+		3F3F42431C0D6FC50077CB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3F42461C0D6FC50077CB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3F42481C0D6FC50077CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3F424D1C0D6FC50077CB4C /* youchaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youchaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F42511C0D6FC50077CB4C /* youchaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = youchaoTests.m; sourceTree = "<group>"; };
+		3F3F42531C0D6FC50077CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3F42581C0D6FC50077CB4C /* youchaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = youchaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F425C1C0D6FC50077CB4C /* youchaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = youchaoUITests.m; sourceTree = "<group>"; };
+		3F3F425E1C0D6FC50077CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3F422E1C0D6FC50077CB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F424A1C0D6FC50077CB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F42551C0D6FC50077CB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3F42281C0D6FC50077CB4C = {
+			isa = PBXGroup;
+			children = (
+				3F3F42331C0D6FC50077CB4C /* youchao */,
+				3F3F42501C0D6FC50077CB4C /* youchaoTests */,
+				3F3F425B1C0D6FC50077CB4C /* youchaoUITests */,
+				3F3F42321C0D6FC50077CB4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3F42321C0D6FC50077CB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F42311C0D6FC50077CB4C /* youchao.app */,
+				3F3F424D1C0D6FC50077CB4C /* youchaoTests.xctest */,
+				3F3F42581C0D6FC50077CB4C /* youchaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3F42331C0D6FC50077CB4C /* youchao */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F42371C0D6FC50077CB4C /* AppDelegate.h */,
+				3F3F42381C0D6FC50077CB4C /* AppDelegate.m */,
+				3F3F423A1C0D6FC50077CB4C /* ViewController.h */,
+				3F3F423B1C0D6FC50077CB4C /* ViewController.m */,
+				3F3F423D1C0D6FC50077CB4C /* Main.storyboard */,
+				3F3F42431C0D6FC50077CB4C /* Assets.xcassets */,
+				3F3F42451C0D6FC50077CB4C /* LaunchScreen.storyboard */,
+				3F3F42481C0D6FC50077CB4C /* Info.plist */,
+				3F3F42401C0D6FC50077CB4C /* youchao.xcdatamodeld */,
+				3F3F42341C0D6FC50077CB4C /* Supporting Files */,
+			);
+			path = youchao;
+			sourceTree = "<group>";
+		};
+		3F3F42341C0D6FC50077CB4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F42351C0D6FC50077CB4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3F42501C0D6FC50077CB4C /* youchaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F42511C0D6FC50077CB4C /* youchaoTests.m */,
+				3F3F42531C0D6FC50077CB4C /* Info.plist */,
+			);
+			path = youchaoTests;
+			sourceTree = "<group>";
+		};
+		3F3F425B1C0D6FC50077CB4C /* youchaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F425C1C0D6FC50077CB4C /* youchaoUITests.m */,
+				3F3F425E1C0D6FC50077CB4C /* Info.plist */,
+			);
+			path = youchaoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3F42301C0D6FC50077CB4C /* youchao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3F42611C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchao" */;
+			buildPhases = (
+				3F3F422D1C0D6FC50077CB4C /* Sources */,
+				3F3F422E1C0D6FC50077CB4C /* Frameworks */,
+				3F3F422F1C0D6FC50077CB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = youchao;
+			productName = youchao;
+			productReference = 3F3F42311C0D6FC50077CB4C /* youchao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3F424C1C0D6FC50077CB4C /* youchaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3F42641C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchaoTests" */;
+			buildPhases = (
+				3F3F42491C0D6FC50077CB4C /* Sources */,
+				3F3F424A1C0D6FC50077CB4C /* Frameworks */,
+				3F3F424B1C0D6FC50077CB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3F424F1C0D6FC50077CB4C /* PBXTargetDependency */,
+			);
+			name = youchaoTests;
+			productName = youchaoTests;
+			productReference = 3F3F424D1C0D6FC50077CB4C /* youchaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3F42571C0D6FC50077CB4C /* youchaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3F42671C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchaoUITests" */;
+			buildPhases = (
+				3F3F42541C0D6FC50077CB4C /* Sources */,
+				3F3F42551C0D6FC50077CB4C /* Frameworks */,
+				3F3F42561C0D6FC50077CB4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3F425A1C0D6FC50077CB4C /* PBXTargetDependency */,
+			);
+			name = youchaoUITests;
+			productName = youchaoUITests;
+			productReference = 3F3F42581C0D6FC50077CB4C /* youchaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3F42291C0D6FC50077CB4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kirito;
+				TargetAttributes = {
+					3F3F42301C0D6FC50077CB4C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3F3F424C1C0D6FC50077CB4C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F3F42301C0D6FC50077CB4C;
+					};
+					3F3F42571C0D6FC50077CB4C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F3F42301C0D6FC50077CB4C;
+					};
+				};
+			};
+			buildConfigurationList = 3F3F422C1C0D6FC50077CB4C /* Build configuration list for PBXProject "youchao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3F42281C0D6FC50077CB4C;
+			productRefGroup = 3F3F42321C0D6FC50077CB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3F42301C0D6FC50077CB4C /* youchao */,
+				3F3F424C1C0D6FC50077CB4C /* youchaoTests */,
+				3F3F42571C0D6FC50077CB4C /* youchaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3F422F1C0D6FC50077CB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F42471C0D6FC50077CB4C /* LaunchScreen.storyboard in Resources */,
+				3F3F42441C0D6FC50077CB4C /* Assets.xcassets in Resources */,
+				3F3F423F1C0D6FC50077CB4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F424B1C0D6FC50077CB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F42561C0D6FC50077CB4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3F422D1C0D6FC50077CB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F42421C0D6FC50077CB4C /* youchao.xcdatamodeld in Sources */,
+				3F3F423C1C0D6FC50077CB4C /* ViewController.m in Sources */,
+				3F3F42391C0D6FC50077CB4C /* AppDelegate.m in Sources */,
+				3F3F42361C0D6FC50077CB4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F42491C0D6FC50077CB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F42521C0D6FC50077CB4C /* youchaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3F42541C0D6FC50077CB4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3F425D1C0D6FC50077CB4C /* youchaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3F424F1C0D6FC50077CB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3F42301C0D6FC50077CB4C /* youchao */;
+			targetProxy = 3F3F424E1C0D6FC50077CB4C /* PBXContainerItemProxy */;
+		};
+		3F3F425A1C0D6FC50077CB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3F42301C0D6FC50077CB4C /* youchao */;
+			targetProxy = 3F3F42591C0D6FC50077CB4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3F423D1C0D6FC50077CB4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3F423E1C0D6FC50077CB4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3F42451C0D6FC50077CB4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3F42461C0D6FC50077CB4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3F425F1C0D6FC50077CB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3F42601C0D6FC50077CB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3F42621C0D6FC50077CB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = youchao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F3F42631C0D6FC50077CB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = youchao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F3F42651C0D6FC50077CB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = youchaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youchao.app/youchao";
+			};
+			name = Debug;
+		};
+		3F3F42661C0D6FC50077CB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = youchaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/youchao.app/youchao";
+			};
+			name = Release;
+		};
+		3F3F42681C0D6FC50077CB4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = youchaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = youchao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F3F42691C0D6FC50077CB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = youchaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wing.youchaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = youchao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3F422C1C0D6FC50077CB4C /* Build configuration list for PBXProject "youchao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3F425F1C0D6FC50077CB4C /* Debug */,
+				3F3F42601C0D6FC50077CB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3F42611C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3F42621C0D6FC50077CB4C /* Debug */,
+				3F3F42631C0D6FC50077CB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3F42641C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3F42651C0D6FC50077CB4C /* Debug */,
+				3F3F42661C0D6FC50077CB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3F42671C0D6FC50077CB4C /* Build configuration list for PBXNativeTarget "youchaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3F42681C0D6FC50077CB4C /* Debug */,
+				3F3F42691C0D6FC50077CB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F3F42401C0D6FC50077CB4C /* youchao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F3F42411C0D6FC50077CB4C /* youchao.xcdatamodel */,
+			);
+			currentVersion = 3F3F42411C0D6FC50077CB4C /* youchao.xcdatamodel */;
+			path = youchao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F3F42291C0D6FC50077CB4C /* Project object */;
+}
